@@ -1,0 +1,17 @@
+For the file: config-host.mak
+(in qemu git)
+
+
+AR=ar
+LD=ld
+CFLAGS=-O2 -g
+QEMU_CFLAGS= -Wold-style-definition -Wold-style-declaration -I. -I$(SRC_PATH) -U_FORTIFY_SOURCE -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wendif-labels -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -DX49GP
+HELPER_CFLAGS=
+LDFLAGS=-Wl,--warn-common -g
+ARLIBS_BEGIN=
+
+
+
+===============================
+Just remove the -Werror !!! (from above)
+===============================

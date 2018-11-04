@@ -23,3 +23,8 @@ make sdcard
 make config
  
  
+The latest rom downloadable from here:
+
+http://hpgcc3.org/downloads/newrplfw.bin
+
+should run fine on x49gp.

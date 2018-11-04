@@ -1,6 +1,8 @@
 # x49gp-emu
 emulator for the HP49 (free source) using GTK
 
+svn checkout https://svn.code.sf.net/p/x49gp/code/ x49gp-code
+
 
  apt-get install libgtk2.0-dev
  

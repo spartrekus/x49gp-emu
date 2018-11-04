@@ -6,3 +6,18 @@ emulator for the HP49 (free source) using GTK
  
  
  
+ Edit FIRMWARE (optional):
+
+The default firmware will be 4950_92.bin, for HPGCC3 development copy
+49_hpgcc.bin in to x49gp and change FIRMWARE in the Makefile.
+
+------------------------------------------------------------------------
+
+Build:
+
+cd x49gp
+make
+make sdcard
+make config
+ 
+ 
